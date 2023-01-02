@@ -609,6 +609,8 @@ svg {
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
+    outline: transparent;
+    color: var(--white-color);
 }
 
 .footer-btn {
