@@ -674,6 +674,7 @@
                                 class="form-description"
                                 type="text"
                                 name="name"
+                                id="name"
                             />
                         </label>
                     </div>
@@ -688,6 +689,7 @@
                                 class="form-description"
                                 type="text"
                                 name="tel"
+                                id="tel"
                             />
                         </label>
                     </div>
@@ -702,6 +704,7 @@
                                 class="form-description"
                                 type="text"
                                 name="email"
+                                id="email"
                             />
                         </label>
                     </div>
@@ -713,16 +716,25 @@
                                 class="form-comment"
                                 name="comment"
                                 placeholder="Wprowadź tekst"
+                                id="comment"
                             ></textarea>
                         </label>
                     </div>
-                    <div>
-                        <label class="statute">
+                    <div class="statute">
+                        <label for="statute_form">
                             <input
                                 class="checkbox"
                                 type="checkbox"
                                 name="statute"
+                                id="statute_form"
                             />
+                            <svg
+                                width="16"
+                                height="15"
+                                class="form-icon-check is-hidden"
+                            >
+                                <use href="./images/icons.svg#icon-check"></use>
+                            </svg>
                             <span class="statute-info">
                                 Oświadczam iż akceptuję
                                 <a class="statute-link" href="#"> Regulamin </a>
