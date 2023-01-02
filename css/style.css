@@ -745,16 +745,16 @@ svg {
     outline: none;
 }
 
-.form-description:hover,
-.form-description:focus,
-.form-comment:hover,
-.form-comment:focus {
+.label-description:focus-within .form-description {
     border-color: var(--primary-color);
 }
 
-.form-icon:hover,
-.form-icon:focus {
+.label-description:focus-within .form-icon {
     fill: var(--primary-color);
+}
+
+.label-description:focus-within .form-comment {
+    border-color: var(--primary-color);
 }
 
 .statute {
