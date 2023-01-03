@@ -799,12 +799,31 @@ svg {
     padding: 0;
 }
 
-.checkbox {
+.statute-form {
     position: relative;
+}
+
+.checkbox {
+    fill: var(--white-color);
+    border: 1px solid var(--black-color);
+    border-radius: 2px;
+    width: 16px;
+    height: 15px;
+    appearance: none;
+    margin-left: 15px;
+    margin-right: 8px;
 }
 
 .form-icon-check {
     position: absolute;
-    bottom: 124px;
-    left: 54px;
+    left: 15px;
+    bottom: 4px;
+    opacity: 0;
+    border-radius: 4px;
+}
+
+.checkbox:checked + .form-icon-check {
+    background-color: #2196f3;
+    border-color: #2196f3;
+    opacity: 1;
 }
