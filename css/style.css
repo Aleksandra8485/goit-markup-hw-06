@@ -614,6 +614,10 @@ svg {
     color: var(--white-color);
 }
 
+.newsletter-composition {
+    display: flex;
+}
+
 .footer-btn {
     background-color: var(--primary-color);
     color: var(--white-color);
@@ -627,11 +631,13 @@ svg {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
+    display: flex;
+    gap: 24px;
+    align-items: cen;
 }
 
 .newletter-icon {
     fill: var(--white-color);
-    margin-left: 24px;
 }
 
 .backdrop {
