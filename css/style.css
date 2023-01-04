@@ -807,6 +807,8 @@ svg {
 
 .statute-form {
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .checkbox {
