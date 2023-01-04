@@ -594,6 +594,7 @@ svg {
 
 .footer-newsletter {
     margin-bottom: 20px;
+    margin-top: 11px;
 }
 
 .footer-form {
@@ -619,7 +620,7 @@ svg {
     width: 200px;
     height: 50px;
     padding-left: 42px;
-    padding-top: 10px;
+    padding-top: 11px;
     padding-bottom: 10px;
     border-radius: 4px;
     border: none;
